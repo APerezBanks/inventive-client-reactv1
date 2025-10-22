@@ -1,10 +1,9 @@
-#  Inventive-client-react 
-React + Vite y Tailwind CSS v4.1
+# Inventive-client-react
 
+React + TS + Vite + Tailwind CSS 4
 
 React front-end for Inventive, a digital inventory tracker app.
 
 Back-end:
 
-Node: https://github.com/r0dmd/inventive-server-nodejs
-
+- Node: [GitHub - r0dmd/inventive-server-nodejs: Node.js back-end for Inventive, a digital inventory tracker app](https://github.com/r0dmd/inventive-server-nodejs)

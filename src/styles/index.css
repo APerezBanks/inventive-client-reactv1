@@ -1,20 +1,28 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
-/* To use color that are not defined in tailwind we  change it here 
-for example --color-name you want: # hex color ; */
-@theme {
-  --color-primary: #a17878;
+body {
+	width: 100vw;
+	min-height: 100vh;
+	color: white;
+	background-image: linear-gradient(to bottom right, #000000, #1f2937, #1f2937);
+	margin: 0;
+	font-family: system-ui, sans-serif;
 }
 
+/* Custom color variable */
+:root {
+	--color-primary: #a17878;
+}
 
+/* Password field styling */
 .password-container {
-  position: relative;
+	position: relative;
 }
 
 .password-container span {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
 }
