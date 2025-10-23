@@ -17,7 +17,7 @@ const Header = () => {
 	return (
 		<header className="flex justify-between items-center p-6 text-white bg-gradient-to-br from-black via-gray-900 to-gray-800">
 	
-			<h1 className="text-2xl font-bold text-orange-400 ml-4">Inventive
+			<h1 className="text-2xl font-bold text-orange-400 ml-4">
 				<NavLink to="/">{VITE_APP_NAME}</NavLink>
 			</h1>
 
